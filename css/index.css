@@ -1,0 +1,250 @@
+body {
+    background-color: rgb(73, 90, 133);
+    
+    background-image: url('../images/background.jpg');  
+    background-position: center center;  
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Navigation bar styles*/
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 60px;
+    background: #fff;
+    padding: 20px 40px;
+    display:flex;
+    align-items: center;
+    box-shadow: 0 15px 15px rgba(0,0,0,0,0.5);
+    box-sizing: border-box;
+}
+
+.webTitle{
+    color: #000;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+
+
+.logo
+{
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.53em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+/*login box*/
+div.loginBox{
+   background-color: #fff;
+   width: 450px;
+   height: 320px;
+   margin-left: 35%;
+   margin-top:8%;
+   border-radius:10%;
+   box-shadow: #333;
+   box-sizing: border-box;
+}
+
+/*login/username/password*/
+#inner-title{
+    margin: 5%;
+    display: inline-block;
+    font-size: 0.10em;
+    width: 100%;
+    color: black;
+   margin-bottom: 2%;  
+
+   text-decoration: none;
+   font-weight: 700;
+   font-size: 1.40em;
+   
+   
+   font-family:Arial, Helvetica, sans-serif
+}
+
+h1 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left:5%;
+    font-size:1.5em;
+    font-weight: 200;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/*Sign up*/
+h2{
+    margin-top: 0%;
+    margin-bottom: 1%;
+    margin-left:5%;
+    font-size:1.2em;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+#logo
+{
+    width: 180px;
+    display: inline-block;
+    
+}
+
+#title 
+{
+    font-size: 60px;
+    width: 100%;
+
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+}
+
+#loginDiv
+{
+    
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+#loggedInDiv
+{
+    font-size: 30px;
+    width: 70%;
+    margin-left: 15%;
+    padding: 25px;
+    background-color: #b2b2b2;
+}
+
+#accessUIDiv
+{
+    font-size: 30px;
+    width: 70%;
+    margin-left: 15%;
+    padding: 25px;
+    background-color: #b2b2b2;
+}
+
+.buttons
+{
+    font-size: 25px;
+    border-radius: 10px;
+    width: 31%;
+    margin-top: 5%;
+    margin-left: 30%;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.buttons:hover{
+    background-color: #0d22464f;
+    color: #ffffff;
+    opacity: 80%;
+}
+
+#buttonSignUp{
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#loginName
+{
+	font-size: 30px;
+}
+#loginPassword
+{
+	font-size: 30px;
+}
+#searchText
+{
+	font-size: 30px;
+}
+#colorText
+{
+	font-size: 30px;
+}
+
+input[type="text"],input[type="password"]{
+   /* border-radius: 25px;*/
+    width: 80%;
+    height: 10%;
+    margin-left: 5%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+#inner-inner-title{
+    text-align: center;
+    margin-left: 45%;
+    font-family: 'Ubuntu', sans-serif;
+    width: 10%;
+    color: white;
+    background-color: #24293d;
+}
+
+#loginResult{
+    display: inline-block;
+    font-size: 0.8em;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #95060a;
+}
+
+#userName{
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+#logoutButton{
+    width: 20%;
+    margin-left: 40%;
+    display: inline-block;
+}
+
+select{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 2%;
+    font-size: 0.75em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#colorSearchResult{
+    display: none;
+}
+
+#colorAddResult{
+    display: inline-block;
+    font-size: 0.8em;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #95060a;
+}
+
+/*
+*{
+    outline: 1px solid red;
+}
+*/

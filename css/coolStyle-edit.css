@@ -1,0 +1,106 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    color: #fff; /* makes all the text color white*/
+    height: 100vh;
+
+    background-image: url('../images/backgroundimage2.jpg');
+    background-position: center center;  
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    /*background-color: #575850;*/
+}
+
+.return{
+    background: radial-gradient(circle, rgba(60,231,229,1) 18%, rgba(54,77,169,1) 55%);
+    padding: 2em 0;
+}
+
+.back-btn{
+    font-size: 1.7em;
+    padding-left: 1em;
+}
+
+hero-info{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+i{
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.contact-info{
+    padding: 3e 1.5em;
+}
+
+.info-line{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1em 2em;
+    margin-top: 2em;
+    border-radius: 20px;
+    background-color: #1c6182;
+    box-shadow: inset 6px 6px 12px #2d2f33, inset -6px -6px 12px #35393d;
+}
+
+p{
+    margin: 0;
+    padding-left: 2em;
+}
+
+.icon-gradient{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 100px; /* makes icon completely circular*/
+    padding: .5em;
+}
+
+.type{
+    border: none;
+    background: none;
+    padding-left: 2em;
+    font-size: 1.2em;
+    outline: none;
+    color: #ffffff;
+}
+
+.button-container{
+    padding: 2em 3.5em;
+}
+
+.update-contact{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1em 2em; 
+    border-radius: 20px;
+    background-color: #1c6182;
+    box-shadow: 6px 6px 12px #2d2f33, -6px -6px 12px #35393d;
+}
+
+.button{
+    border: none;
+    font-size: 1.3em;
+    padding-left: 1.5em;
+    outline: none;
+    color: #fff;
+    background-color: #1c6182;
+}

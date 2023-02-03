@@ -1,0 +1,118 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    color: #fff; /* makes all the text color white*/
+    height: 100vh;
+    
+    background-image: url('backgroundimage2.jpg');
+    background-position: center center;  
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+   /*background-color: #47849f;*/
+    
+}
+
+.return{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 2em 0;
+}
+
+.back-btn{
+    font-size: 1.7em;
+    padding-left: 1em;
+}
+
+hero-info{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+i{
+    font-size: 1.5em;
+}
+
+.relationship{
+    width: 6em;
+    text-align: center;
+    padding: .4em .5em;
+    /*
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    background-color: #75a85e;
+    */
+    font-size: .8em;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.contact-info{
+    padding: 3e 1.5em;
+}
+
+.info-line{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1em 2em;
+    margin-top: 2em;
+    border-radius: 20px;
+    box-shadow: inset 6px 6px 12px #2d2f33, inset -6px -6px 12px #35393d;
+}
+
+p{
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.icon-gradient{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 100px; /* makes icon completely circular*/
+    padding: .5em;
+}
+
+.button-container{
+    padding: 2em 3.5em;
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+
+.update-contact{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1em 2em; 
+    border-radius: 20px;
+    background-color: #1c6182;
+    box-shadow: 6px 6px 12px #2d2f33, -6px -6px 12px #35393d;
+}
+
+.button{
+    border: none;
+    font-size: 1.3em;
+    padding-left: 1.5em;
+    outline: none;
+    color: #fff;
+    background-color: #1c6182;
+}

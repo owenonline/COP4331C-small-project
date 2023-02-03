@@ -1,0 +1,141 @@
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    color: #fff; /* makes all the text color white*/
+    height: 100vh;
+    background-color: rgb(73, 90, 133);
+    
+    background-image: url('../images/backgroundimage2.jpg');
+    background-position: center center;  
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.contacts-title{
+    font-size: 7.2em;
+    padding: .3em;
+    /*background-color: #000000;*/
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+
+.contacts-slogan{
+    font-size: 0.7em;
+    padding: .3em;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+   /* background-color: #575850;*/
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    /* background: #000000; plain blck background instead of fancy blue gradient*/
+    background: rgb(3,79,190);
+    background: radial-gradient(circle, rgba(60,231,229,1) 18%, rgba(54,77,169,1) 55%);
+    padding: 2em 0;
+    align-items: center;
+}
+
+.contact-search{
+    font-size: 1.2em;
+    padding: .3em;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.theTable{
+    padding: .3em;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+
+.contact-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+    transition: 0.3s;
+    /*color:rgb(73, 90, 133);doesnt go behind*/
+}
+
+i{
+    font-size: 1.5em;
+}
+
+/* if i want to make the contact name bigger than the other names
+.contact-name{
+    font-size: 1.2em; 
+}
+*/
+
+ul{ /*style the unordered bullet list tag*/
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+/*
+hr{ horizontal line separator but this doesnt give the coffe menu look
+    border: 2px solid #000000;
+}
+*/
+
+.list_item{
+    list-style: none;
+}
+
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+    transition: 0.3s;
+}
+
+.contact-section:hover{
+    background-color: #48494a; /*whenever I hover over an element*/
+}
+
+.text{
+    padding-left: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
